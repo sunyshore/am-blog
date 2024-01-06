@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://sunyshore.github.io/my-app",
+  "homepage": "https://sunyshore.github.io/am-blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,6 +50,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.1"
   }
 }
