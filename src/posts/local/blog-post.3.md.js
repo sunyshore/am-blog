@@ -17,4 +17,21 @@ Aenean lacinia bibendum nulla sed consectetur.
 Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
 `
 
-export default content;
+const blurb = `# Bagginki? Bingus? Bekstinki?
+
+_March 14, 2020 by [Tom](/)_
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+ut fermentum massa justo sit amet risus.
+`
+
+const post = {title: 'Bagginki? Bingus? Bekstinki?',
+    date: 'March 14, 2020',
+    author: 'Merpus',
+    blurb: blurb,
+    content: content,
+    tags: ['local']}
+
+export default post;

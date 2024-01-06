@@ -17,4 +17,19 @@ Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 Morbi leo risus, porta ac consectetur ac, vestibulum at eros.`
 
-export default content;
+const blurb = `# Joker Out does it again!
+
+_March 23, 2020 by [Matt](/)_
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.`
+
+const post = {title: 'Joker Out does it again!',
+    date: 'March 23, 2020',
+    author: 'Merpus',
+    blurb: blurb,
+    content: content,
+    tags: ['esc']}
+
+export default post;
